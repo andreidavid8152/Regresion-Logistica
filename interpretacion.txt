@@ -1,0 +1,24 @@
+MODELO DE REGRESIÓN LOGÍSTICA – ANÁLISIS DE RESULTADOS
+
+Para este modelo se han analizado datos de estudiantes universitarios,
+con el objetivo de predecir la probabilidad de aprobar un examen final.
+Se tomaron como variables independientes la nota previa obtenida en cursos anteriores
+y el porcentaje de asistencia promedio a clases. La variable dependiente es binaria:
+1 si el estudiante aprobó el examen, y 0 si lo reprobó.
+
+En el conjunto de prueba, se obtuvieron los siguientes resultados:
+
+  • Exactitud (accuracy):        0.800
+  • Precisión:                   0.808
+  • Recall (sensibilidad):       0.980
+  • F1-score:                    0.886
+  • Área bajo la curva ROC (AUC): 0.658
+
+La matriz de confusión refleja 97 verdaderos positivos (TP) y 3 verdaderos negativos (TN),
+con 23 falsos positivos (FP) y 2 falsos negativos (FN).
+
+El modelo alcanza una precisión general del 80.0 %, identificando correctamente
+el 98.0 % de los casos de aprobación. El AUC de 0.66 respalda una adecuada
+capacidad de discriminación entre estudiantes que aprueban y los que no. Por lo tanto,
+las variables seleccionadas son relevantes para explicar el rendimiento académico
+en este escenario.
